@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# intermediate output of the table builders; can be regenerated
+offline/out/
+
+# the organizers' starter kit, hand histories and local replay files stay out of the repo
+starter-kit/
+history/
+hand-history/
+*.zip
+*.jsonl.gz
